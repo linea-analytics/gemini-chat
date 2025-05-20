@@ -1,4 +1,5 @@
-# Gemini Chat <img src="public/img/logo.png" align="right" width="120" style="border-radius:15px"/>
+# Gemini Chat 
+![banner](public/img/banner.png)
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
