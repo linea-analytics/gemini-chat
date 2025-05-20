@@ -1,0 +1,76 @@
+ body{
+    min-height: 100vh;
+ }
+ 
+ .message-bot {
+     font-size: 1rem;
+     line-height: 1.5;
+ }
+
+ .message-bot code {
+     background: #2b2b2b;
+     color: #e6e6e6;
+     padding: 2px 6px;
+     border-radius: 4px;
+     font-family: 'Consolas', 'Monaco', monospace;
+     font-size: 0.9em;
+ }
+
+ .message-bot pre {
+     background: #2b2b2b;
+     color: #e6e6e6;
+     padding: 1em;
+     border-radius: 8px;
+     overflow-x: auto;
+     margin: 1em 0;
+ }
+
+ .message-bot pre code {
+     background: transparent;
+     padding: 0;
+     border-radius: 0;
+     color: inherit;
+ }
+
+ .message-bot p {
+     margin: 0.75em 0;
+ }
+
+ .message-bot ul,
+ .message-bot ol {
+     margin: 0.75em 0;
+     padding-left: 1.5em;
+ }
+
+ .message-bot blockquote {
+     border-left: 4px solid #3298dc;
+     padding: 0.5em 0 0.5em 1em;
+     margin: 1em 0;
+     background: rgba(50, 152, 220, 0.1);
+     border-radius: 0 4px 4px 0;
+ }
+
+ .message-bot a {
+     color: #3298dc;
+     text-decoration: none;
+ }
+
+ .message-bot a:hover {
+     text-decoration: underline;
+ }
+
+ .message-bot table {
+     border-collapse: collapse;
+     margin: 1em 0;
+     width: 100%;
+ }
+
+ .message-bot th,
+ .message-bot td {
+     border: 1px solid #dbdbdb;
+     padding: 0.5em;
+ }
+
+ .message-bot th {
+     background: #f5f5f5;
+ }
