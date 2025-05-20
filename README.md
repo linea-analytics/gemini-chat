@@ -48,7 +48,7 @@ The app uses environment variables to keep secrets secure. All configurable valu
 
 - **AI Integration:** Uses `@google/generative-ai` to make calls to the Gemini 2.0 Flash model, which comes with a [generous free tier](https://ai.google.dev/gemini-api/docs/pricing).
 
-- **Frontend:** A lightweight HTML interface styled with Bulma CSS.
+- **Frontend:** A lightweight HTML interface styled with [Bulma CSS](https://bulma.io/). Markdown formatting with [Marked](https://marked.js.org/).
 
 - **Conversation History:** Messages are stored in memory per session, enabling back-and-forth chat.
 
