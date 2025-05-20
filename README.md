@@ -19,7 +19,7 @@ To run the app locally, you'll need:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/gemini-chat.git
+git clone https://github.com/linea-analytics/gemini-chat.git
 cd gemini-chat
 ```
 2. Install dependencies:
