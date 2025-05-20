@@ -7,7 +7,7 @@
 A simple chat application using the [Gemini API](https://ai.google.dev/) (gemini-2.0-flash) with support for conversation history.
 
 ## 🚀 Live Demo
-You can try the live app [here](url)
+You can try the live app [here](https://gemini-chat-jnc9.onrender.com/)
 
 ## 📦 Prerequisites
 To run the app locally, you'll need:
