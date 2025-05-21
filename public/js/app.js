@@ -195,10 +195,11 @@ function updateDarkMode() {
   appTitle.classList.toggle('has-text-light', isDarkMode);
   appTitle.classList.toggle('has-text-dark', !isDarkMode);
   
-  // Update container background
+  // Update container background and shadow
   const chatContainer = document.getElementById('chatContainer');
   chatContainer.classList.toggle('has-background-dark', isDarkMode);
   chatContainer.classList.toggle('has-text-light', isDarkMode);
+  chatContainer.classList.toggle('box-shadow-light', isDarkMode); // Add light shadow in dark mode
   
   // Update buttons
   darkModeBtn.classList.toggle('is-dark', isDarkMode);
@@ -218,6 +219,18 @@ function updateDarkMode() {
   const textarea = document.getElementById('prompt');
   textarea.classList.toggle('has-background-dark', isDarkMode);
   textarea.classList.toggle('has-text-light', isDarkMode);
+
+  // Update footer
+  const footer = document.getElementById('mainFooter');
+  footer.classList.toggle('has-background-dark', isDarkMode);
+  footer.classList.toggle('has-background-light', !isDarkMode);
+  footer.classList.toggle('has-text-light', isDarkMode);
+  
+  const footerBtns = document.querySelectorAll('#githubBtn, #linkedinBtn');
+  footerBtns.forEach(btn => {
+    btn.classList.toggle('is-dark', isDarkMode);
+    btn.classList.toggle('is-light', !isDarkMode);
+  });
 }
 
 // Initialize dark mode

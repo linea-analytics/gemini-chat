@@ -10,15 +10,13 @@
     <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-    <style>
-       
-    </style>
 </head>
 
-<body class="section">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-8 is-offset-2">                <div class="level">
+<body class="section p-0">
+    <div class="container is-fluid p-6 ">
+        <div class="columns is-12">
+            <div class="column is-8 is-12-tablet">
+                <div class="level">
                     <div class="level-left">
                         <h1 class="title has-text-dark" id="appTitle">Gemini Chat</h1>
                     </div>
@@ -40,7 +38,7 @@
                 </div>
 
                 <!-- Chat Messages Container -->
-                <div id="chatContainer" class="box" style="height: 400px; overflow-y: auto;">
+                <div id="chatContainer" class="box box-shadow-dark" style="height: 400px; overflow-y: auto;">
                     <div id="messagesContainer"></div>
                 </div> <!-- Chat Input -->
                 <div class="field has-addons">
@@ -73,7 +71,7 @@
                                     <input id="apiKey" class="input" type="password"
                                         placeholder="Paste your Gemini API Key">
                                 </div>
-                                <p id="apiKeyHelp" class="help">
+                                <p id="apiKeyHelp" class="help has-text-dark">
                                     No API key? <a href="https://aistudio.google.com/apikey" target="_blank">Get one
                                         here</a>
                                 </p>
@@ -88,6 +86,34 @@
             </div>
         </div>
     </div>
+
+    <footer class="p-5 mt-6" id="mainFooter">
+        <div class="columns is-vcentered">
+            <div class="column is-2">
+                <img src="img/logo.png" alt="Linea Analytics Logo" style="max-height: 48px;">
+            </div>
+            <div class="column has-text-right">
+                <p id="footerText">
+                    <strong>Gemini Chat</strong> by <a href="https://linea-analytics.com">Linea Analytics</a>.
+                    The source code is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.
+                </p>
+                <p>
+                    <a href="https://github.com/linea-analytics/gemini-chat" class="button mx-1" id="githubBtn">
+                        <span class="icon">
+                            <i class="fab fa-github"></i>
+                        </span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/company/86720046" class="button mx-1" id="linkedinBtn">
+                        <span class="icon">
+                            <i class="fab fa-linkedin"></i>
+                        </span>
+                        <span>LinkedIn</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/app.js"></script>
 </body>

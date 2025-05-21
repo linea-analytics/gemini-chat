@@ -1,6 +1,13 @@
  body{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
  }
+
+.box-shadow-light {
+box-shadow: 0 0.5em 1em -0.125em rgba(255, 255, 255, 0.1), 0 0px 0 1px rgba(255, 255, 255, 0.02) !important;
+}
  
  .message-bot {
      font-size: 1rem;
