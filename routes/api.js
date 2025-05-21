@@ -38,7 +38,7 @@ router.post('/generate', async (req, res) => {
   } catch (err) {
     console.error('Gemini API error:', err);
     res.status(500).json({
-      error: `Gemini API call failed. Check your API key and see the README at https://github.com/blahblahblah for setup instructions.`,
+      error: `Gemini API call failed. Check your API key and see the README at https://github.com/linea-analytics/gemini-chat/edit/master/README.md for setup instructions.`,
       message: err.message
     });
   }
